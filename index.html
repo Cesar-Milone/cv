@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cesar Milone</title>
+    <!-- Bootstrap e Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles1.css">
+    <!-- Favicon -->
+    <link rel="icon" href="images/FaviconCM.png">
+    <!-- Icons on Font Awesome -->
+    <script src="https://kit.fontawesome.com/e2d297062d.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat:wght@200;900&display=swap" rel="stylesheet"></head>
+</head>
+<body>
+    <section id="background-section">
+        <iframe class="youtube-video"
+            src="https://www.youtube.com/embed/_ITiwPMUzho?autoplay=1&mute=1">
+        </iframe>
+    </section>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="#">CM</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-url_root="collapse" data-target="#navbarmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarmenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="">Currículo Viate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portifólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Automação Industrial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main> <!--  -->
+        <section id="presentation-section">
+            <div class=""> <!-- opacity-25 -->
+                <p class="text-video">Olá, Eu sou</p>
+                <h1 class="my-name">Cesar Milone</h1>
+                <p class="text-video">apaixonado por programação.</p>
+            </div>
+        </section>
+        <section class="white-section container-fluid" id="about-me-section">
+            <h2 class="about-me-header">Sobre Mim</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="profile-photo" src="images/Cesar.jfif" alt="cesar-milone-photo">
+                </div>
+                <div class="col-md-9">
+                    <p class="about-me-description">Esse site foi desenvolvido para recrutadores, amigos e para mim.</p>
+                    <p class="about-me-description">Aqui tento demonstrar meu desenvolvimento como Dev, monstrando meus desafios, cursos
+                        e projetos educacionais.</p>
+                    <p class="about-me-description">O que mais você encontrará sobre mim por aqui:</p>
+                    <ul class="about-me-list">
+                        <li class="">Minha Experiência Profissional</li>
+                        <li class="">Meus Hobies</li>
+                        <li class="">Meu Contato</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid colored-section" id="portfolio">
+            <h1 class="heading-portfolio">Desenvolvimento Front-End</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="description">FrontEnd Mentor</h2>
+                    <p class="description">O site www.frontendmentor.io tem desafios de desenvolvimento FrontEnd,
+                    lá são disponibilizadas as imagens e textos do site assim como a imagem final
+                    de como o site deve ser.</p>
+                    <hr>
+                    <h2 class="description">100 Day of Code Bootcamp - Curso Udemy</h2>
+                    <p class="description">Esse curso é onde aprendei a maior parte do que sei em
+                    desenvolvimento Web até o momento, os sites que fiz por aqui são desenvolvimentos
+                    guiados, com eu desenvolvendo pequenos desafios e montando a aplicação igual a
+                    professora Angela Yu. Curso foi bom para treinar o inglês já que assisti o mesmo na
+                    lingua original e sem legenda.</p>
+                    <button class="btn btn-outline-secondary btn-lg btn-block" type="button">Acessar Portifólios</button>
+                </div>
+                <div class="col-md-8">
+                    <div id="carouselProfileIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h4>FrontEndMentor - Order Summary</h4>
+                                <img class="portfolio-img" src="images/portfolio/OrderSummary.JPG">
+                            </div>
+                            <div class="carousel-item">
+                                <h4>100 Days of Code - TinDog - O Tinder para Dogs</h4>
+                                <video class="portfolio-video" autoplay muted loop>
+                                    <source src="videos/TinDogPT.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>FrontEndMentor - Dashboard</h4>
+                                <img class="portfolio-img" src="images/portfolio/TimeTrackingDashboard.JPG">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProfileIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProfileIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Life Time -->
+        <section class="white-section container-fluid" id="life-time-section">
+            <div class="main-timeline">
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">2006</span>
+                                    <span class="year">2007</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h5 class="title">Término do Ensino Médio</h5>
+                        <p class="description">
+                            Término do ensino médio em Itapetininga-SP. Ida para São Paulo capital para
+                            estudar e trabalhar.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
+
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">2009</span>
+                            <span class="year">2012</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h5 class="title">Término Técnico / Fazendo curso Tecnólogo / Estagiando</h5>
+                        <p class="description">
+                            Término do técnico em mecatrônica e inicio do tecnólogo em eletrônica industrial.
+                            Meus primeiros programas no compilador turbo C já faziam ficar querendo desenvolver jogos,
+                            como jogo de corrida (estilo Top Gear - Super Nintendo) e jogo da nave espacial.
+                            Fiz Estágios na empresa Endress+Houser (instrumentista) em instrumentação industrial,
+                            estágio na Elipse Software de automação industrial (suporte técnico), e início da minha carreira
+                            em automação indsutrial na Genius (Divisão da Tetra Pak).
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
+
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">2012</span>
+                            <span class="year">2018</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h5 class="title">Término Tecnólogo / Fim dos estágios / Início dos trabalhos.</h5>
+                        <p class="description">
+                            Final do curso de tecnólogo. Já  trabalhando com automação indsutrial em gigantes da industria
+                             como Nestlé, Ambev, BRF, JBS e etc. Muitas viagens, projetos desenvolvidos geralmente sozinho,
+                            período de bastante crescimento de inteligência emocional, resiliência, resolução de
+                            blemas e adaptabilidade.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
+
+                <!-- start experience section-->
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">2018</span>
+                            <span class="year">2021</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h5 class="title">Volta para Interior de SP onde cresci</h5>
+                        <p class="description">
+                            Em 2018 resolvi voltar para Itapetininga/SP pois sentia falta de aproveitar mais a
+                            família, continuei tabalhando com automação em home office. Futebol de quarta,
+                            tocar na igreja de quinta e domingo trouxeram uma vida nova e uma nova necessidade
+                            de parar de viajar.
+                            Resolvi voltar a estudar programação "raiz" e seguir essa carreira para mais
+                            qualidade de vida e manter a vida de programador, porém sem a automação.
+                        </p>
+                    </div>
+                </div>
+                <!-- end experience section-->
+
+</div>
+        </section>
+        <!-- Life Time  -->
+
+    </main>
+
+
+  <!-- Footer -->
+
+    <footer id="footer" class="white-section">
+        <a href="" ><i class="fab fa-twitter social-media-icon"></i></a>
+        <a href="" ><i class="fab fa-facebook-f social-media-icon"></i></a>
+        <a href="" ><i class="fab fa-instagram social-media-icon"></i></a>
+        <a href="" ><i class="fas fa-envelope social-media-icon"></i></a>
+        <p class="text-footer">cesar_milone@hotmail.com / +55 11 99690-8370</p>
+        <p class="text-footer">© Copyright 2021 - Cesar Milone - Personal WebSite</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+</body>
+</html>

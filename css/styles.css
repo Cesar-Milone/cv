@@ -1,0 +1,71 @@
+/* Colors - By Color Hunt https://colorhunt.co/palette/ffadadffdac7ffefbcfffeb7
+    Soft Peach: #FFADAD
+    Soft Orange: #FFDAC7
+    Soft Yellow: #FFEFBC
+    SoftYellow: #FFFEB7
+    Contrast: #290FBA
+*/
+body{
+    text-align: center;
+    font-family: "Montserrat";
+    color: #290FBA;
+    background-color: #FEF1E6;
+}
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.5;
+}
+header{
+    padding: 1% 1%;
+}
+hr{
+    margin: 50px auto;
+    background-color: #FBF4E9;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+.container-fluid{
+    padding: 30px 7% 0 7%;
+}
+.colored-section{
+    color: white;
+}
+.white-section{
+    color: #290FBA;
+}
+/* -------------------------------------------------------------------- */
+/* Header Menu */
+.menu-title{
+    font-size: 1rem;
+}
+.my-name{
+    font-size: 7rem;
+    font-family: 'Ephesis', cursive;
+}
+.text-presentation{
+    padding: 20px;
+}
+/*----------------------------------------------------------------------- */
+/* */
+#presentation{
+    margin: 4% 0 8% 0;
+}
+.description{
+    text-align: left;
+    padding: auto 15%;
+}
+/*Portfolio*/
+#portfolio{
+    background-color: #FFADAD;
+    padding-bottom: 10%;
+}
+.heading-portfolio{
+    padding: 10% 1% 3% 1%;
+}
+.portfolio-img{
+    width: 100%;
+    height: 100%;
+}
+/*-----------*/
